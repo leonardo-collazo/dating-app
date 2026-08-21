@@ -149,10 +149,6 @@ yarn-error.log*
 secrets.json
 secrets.*.json
 
-# User-specific configuration
-appsettings.Development.json
-appsettings.Local.json
-
 # ============================================================
 # Docker
 # ============================================================
