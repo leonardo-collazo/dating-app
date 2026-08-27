@@ -70,17 +70,12 @@ coverage/
 # so DO NOT ignore Migrations/ by default.
 
 # ============================================================
-# SQL Server
+# SQLite
 # ============================================================
 
 # Local database files
-*.mdf
-*.ldf
-*.ndf
-
-# SQL Server backups
-*.bak
-*.trn
+dating.db-shm
+dating.db-wal
 
 # ============================================================
 # Azure
@@ -148,10 +143,6 @@ yarn-error.log*
 # Azure / application secrets
 secrets.json
 secrets.*.json
-
-# User-specific configuration
-appsettings.Development.json
-appsettings.Local.json
 
 # ============================================================
 # Docker
