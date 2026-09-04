@@ -1,8 +1,9 @@
 import { HttpClient } from '@angular/common/http';
 import { Component, inject, OnInit, signal } from '@angular/core';
+import { Nav } from "../layout/nav/nav";
 
 @Component({
-  imports: [],
+  imports: [Nav],
   selector: 'app-root',
   styleUrl: './app.css',
   templateUrl: './app.html',
